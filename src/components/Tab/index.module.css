@@ -1,0 +1,8 @@
+.rootTabs {
+  width: 451px;
+}
+
+.semiIconsFile {
+  color: var(--semi-usage-text-color-text-2, #1c1f2399);
+  font-size: 16px;
+}

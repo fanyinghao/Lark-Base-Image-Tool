@@ -1,0 +1,27 @@
+@import 'reset-css';
+
+.main {
+  padding: 1.5rem 1rem 1rem;
+}
+.main h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+.main code {
+  color: #d63384;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.rootFrame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #ffffff;
+  padding: 0px 0px 74px;
+  width: 426px;
+  overflow: hidden;
+  text-align: left;
+  line-height: 32px;
+  color: var(--semi-usage-text-color-text-0, #1c1f23);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+}

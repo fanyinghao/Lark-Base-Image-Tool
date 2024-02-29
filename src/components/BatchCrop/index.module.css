@@ -1,0 +1,97 @@
+.rootBatchCropFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 32px;
+  color: var(--semi-usage-text-color-text-0, #1c1f23);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+
+  .optionColumnGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .semiComponentBlockNa {
+      display: inline-flex;
+      align-items: flex-start;
+      margin: 0px 0px 0px 1px;
+
+      .blockName {
+        flex-shrink: 0;
+        min-width: 60px;
+        vertical-align: top;
+      }
+    }
+    .select {
+      margin: 4px 0px 0px;
+      width: 200px;
+    }
+  }
+
+  .optionScaleGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 29px 0px 0px 1px;
+
+    .semiComponentBlockNa {
+      display: inline-flex;
+      align-items: flex-start;
+      margin: 0px 0px 0px 1px;
+
+      .blockName {
+        flex-shrink: 0;
+        min-width: 80px;
+        vertical-align: top;
+      }
+    }
+
+    .radio,
+    .radio1,
+    .radio2 {
+      min-width: 16px;
+      min-height: 20px;
+    }
+    .input {
+      margin: 4px 0px 0px;
+      width: 200px;
+    }
+  }
+
+  .optionSaveGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 29px 0px 0px 1px;
+
+    .semiComponentBlockNa {
+      display: inline-flex;
+      align-items: flex-start;
+
+      .blockName {
+        flex-shrink: 0;
+        min-width: 80px;
+        vertical-align: top;
+      }
+    }
+
+    .radio1 {
+      min-width: 16px;
+      min-height: 20px;
+    }
+
+    .radio {
+      margin: 3px 0px 0px;
+      min-width: 16px;
+      min-height: 20px;
+    }
+  }
+
+  .button {
+    margin: 29px 0px 0px 59px;
+    height: 32px;
+  }
+}
